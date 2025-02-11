@@ -10,6 +10,10 @@ description = "Rust bindings for whisper.cpp"
 license = "Unlicense"
 documentation = "https://docs.rs/whisper-rs"
 repository = "https://github.com/ryanrapp/whisper-rs"
+publish = false
+
+[patch.crates-io]
+whisper-rs-sys = { path = "sys" }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
